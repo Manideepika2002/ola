@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gentona';
+}
+#nav{
+    border: 2px solid;
+    height: 70px;
+    background-color: #000;
+}
+#sub-nav{
+    /* border: 2px solid aqua; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+
+}
+
+#left-nav ol{
+    /* border: 2px solid;
+    list-style: none;*/
+    color: #fff; 
+    /* justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    width: 20%;
+    margin-top: 20px;
+
+}
+#right-nav{
+    /* border: 2px solid aqua; */
+    margin-left: 75%;
+    /* display: absolute;
+    margin-top: 1px; */
+    margin-top: -4%;
+    width: 25%;
+}
+#right-nav ol{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+#right-nav1{
+    color: white;
+    background: rgba(255, 255, 255, 0.17);
+    padding: 14px 12px;
+    line-height: 16px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400px;
+}
+#right-nav2{
+    color: #000000;
+    background: #FFFFFF;
+    padding: 14px 12px;
+    line-height: 16px;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+#main{
+    /* border: 2px solid red; */
+    height: 150px;
+    background: url('./assests/hero-banner.webp');
+    background-repeat: no repeat;
+    background-size: cover;     
+}
+#sub-main{
+    /* border: 2px solid red; */
+    width: 400px;
+    margin-left: 15%;
+    padding-top: 30px;
+}
+#sub-main h1{
+    color: #fff;
+    font-size: 48px;
+}
+#sub-main ol{
+    /* border: 2px solid ; */
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+#aside{
+    /* border: 2px solid blue; */
+    height: 200px;
+    width: 1000px;
+    background-color:#F2F4F6;
+
+}
+#aside ul{
+    margin-top: 0px;
+    /* border: 2px solid red; */
+    
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+} 
+#aside ul li{
+    margin-top: 20px;
+    border: 2px solid #ccd0d0 ;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+#aside ul li+li+li{
+
+    background-color:black;
+    color: green;
+
+}
+#global{
+    /* border: 2px solid; */
+    width: 60%;
+    margin: auto;
+    margin-top: 300px;
+    
+    
+}
+#global h1{
+    font-size: 48px;
+    text-align: center;
+}
+.card-group{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    /* border: 2px solid red; */
+    height:275px;
+    width: 200px;
+}
+.card img{
+    height: 100px;
+    align-items: center;
+    margin-left: 40px;
+    box-sizing: border-box;
+    
+}
+.card-title{
+    color: #212026;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.64;
+}
+#ola-ride{
+    /* border: 2px solid; */
+    width: 70%;
+    margin: auto;
+    margin-top: 300px;
+}
+#ola-ride h1{
+    font-size: 48px;
+    text-align: center;
+}
+.card-text1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    opacity: 0.64;
+}
+
+
